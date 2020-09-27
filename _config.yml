@@ -1,4 +1,4 @@
 title: rlei
 description: Richard Lei's Coding Blog
 theme: jekyll-theme-slate
-permalink: /Blog/:year/:month/:day/:title
+permalink: /Blog/:year/:month/:day/:title.html
