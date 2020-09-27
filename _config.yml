@@ -1,4 +1,4 @@
 title: rlei
 description: Richard Lei's Coding Blog
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 permalink: /Blog/:year/:month/:day/:title.html
