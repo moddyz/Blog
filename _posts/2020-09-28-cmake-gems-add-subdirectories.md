@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CMake Gems: add_subdirectories
+title: CMake Gems - add_subdirectories
 ---
 
 Over half a year ago I started building a CMake template project for basing new C++ projects off of.
