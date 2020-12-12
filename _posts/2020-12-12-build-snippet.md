@@ -6,7 +6,7 @@ title: CMake Project build.sh
 There is a shell script which I commonly copy into CMake-based projects.
 
 I thought it'd be useful to just document it as part of the blog:
-```
+```bash
 #!/bin/bash
 
 set -euxo pipefail
