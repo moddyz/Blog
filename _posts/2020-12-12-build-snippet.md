@@ -15,10 +15,9 @@ set -euxo pipefail
 mkdir -p build && cd build
 
 # CMake configure.
-CMAKE_ARGS='
- -DCMAKE_BUILD_TYPE="Release"
- -DBUILD_TESTING=ON
-'
+CMAKE_ARGS=\
+\ -DCMAKE_BUILD_TYPE="Release"\
+\ -DBUILD_TESTING=ON
 
 # CMake build & install.
 if [ $# -eq 0 ]
