@@ -40,4 +40,4 @@ These are bash aliases which can be slotted in your `~/.bash_aliases` file.
 
 It's very simple - but an incremental step up from manually setting variables in many contexts.
 
-You can find the up-to-date source in [this file](https://github.com/moddyz/UnixConfig/blob/master/.bash_aliases).
+You can find the up-to-date source in [this file](https://github.com/moddyz/Dotfiles/blob/master/.bash_aliases).
