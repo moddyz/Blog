@@ -3,7 +3,7 @@ layout: post
 title: CMake Project build.sh
 ---
 
-There is a shell script which I commonly copy into CMake-based projects.
+There is a shell script which I commonly copy into the root of CMake-based projects, which can be `source`'ed.
 
 I thought it'd be useful to just document it as part of the blog:
 ```bash
@@ -31,3 +31,14 @@ fi
 ```
 
 I've usually named this file `build.sh`, and included it as part of the project's `.gitignore`.
+
+Similarly, a `runtime.sh` exists to set-up runtime environment variables:
+```bash
+#!/bin/bash
+
+INSTALL_ROOT=/apps/ProjectEuler
+appendEnv LD_LIBRARY_PATH ${INSTALL_ROOT}/lib
+echo $INSTALL_ROOT
+```
+
+See [Poor man's environment variable management](https://moddyz.github.io/Blog/2020/10/04/env-var-management.html) for the `appendEnv` implementation.
